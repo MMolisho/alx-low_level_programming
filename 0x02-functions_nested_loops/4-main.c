@@ -2,13 +2,14 @@
 
 /**
  * main - check the code.
+ *
  * Return: Always 0.
  */
 int main(void)
 {
     int r;
 
-     r = isalpha('H');
+    r = isalpha('H');
     _putchar(r + '0');
     r = isalpha('o');
     _putchar(r + '0');
